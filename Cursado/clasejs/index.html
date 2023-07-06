@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <script src="app.js"></script>
+
+    </head>
+
+    <body>
+        <form>
+            <label>Nota 1</label>
+            <input type="number" id="nota1">
+            <br>
+            <label>Nota 2</label>
+            <input type="number" id="nota2">
+            <br>
+            <label>Nota 3</label>
+            <input type="number" id="nota3">
+            <br>
+
+            <button onclick="calcular()">Calcular si aprobo</button>
+        </form>
+
+        <p>Nota 1: <span  id="n1"></span></p>
+        <p>Nota 2: <span  id="n2"></span></p>
+        <p>Nota 3: <span  id="n3"></span></p>
+        
+        <p> La nota mayor es: <span id="NMayor"></span></p>
+        <p> La nota menor es: <span id="NMenor"></span></p>
+
+        <h2>El Promedio es: <span id="resultado"></span>, El Alumno aprobo? <span id="aprobo"></span></h2>
+
+    </body>
+</html>

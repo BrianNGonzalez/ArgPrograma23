@@ -1,0 +1,49 @@
+/* para hacer comentarios*/
+
+/*--------------------------------------------------------------
+# Nuestro primer CSS en curso FrontEnd
+--------------------------------------------------------------*/
+/*Selector universal*/
+*{
+  color: #eaeff5;
+  text-decoration: none;
+  font-size: large;
+}
+/* Selector identificador*/
+body {
+  background: #fff; 
+  color: #363434;
+  font-family: "Open Sans", sans-serif; /*color de fondo*/
+}
+/* Selector tipo clase*/ 
+.body {
+  background: #fff; 
+  color: #363434;
+  font-family: "Open Sans", sans-serif; /*color de fondo*/
+}
+
+/* Selector tipo etiqueta*/
+a {
+  color: #eaeff5;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+
+body {
+    background: #fff; 
+    color: #363434;
+    font-family: "Open Sans", sans-serif; /*color de fondo*/
+  }
+  
+  a {
+    color: #eaeff5;
+    text-decoration: none;
+    font-size: large;
+}/*modifico letra*/
+#divPie{
+    color: black;
+    background-color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

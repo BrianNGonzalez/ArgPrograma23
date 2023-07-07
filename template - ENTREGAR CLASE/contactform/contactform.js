@@ -57,6 +57,7 @@ jQuery(document).ready(function($) {
         i.next('.validation').html((ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
+    
     f.children('textarea').each(function() { // run all inputs
 
       var i = $(this); // current input

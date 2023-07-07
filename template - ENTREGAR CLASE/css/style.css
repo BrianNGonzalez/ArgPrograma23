@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #000000;
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
@@ -1073,14 +1073,14 @@ h6 {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #f7760d;
 }
 
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
-  color: #888;
+  color: #f7760d;
 }
 
 #contact .social-links {
@@ -1091,7 +1091,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #007bff;
+  color: #f7760d;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1109,12 +1109,12 @@ h6 {
 }
 
 #contact .info {
-  color: #283d50;
+  color: #f7760d;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #e06602;
   float: left;
   line-height: 1;
 }
@@ -1122,12 +1122,12 @@ h6 {
 #contact .info p {
   padding: 0 0 10px 36px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 #contact .form #sendmessage {
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #e06602;
+  border: 1px solid #f7760d;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1167,7 +1167,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #eb7f27;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1176,8 +1176,9 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #f7760d;
   cursor: pointer;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -1185,14 +1186,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #f7760d;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #000000;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #eb7f27;
   padding: 60px 0 30px 0;
 }
 
@@ -1206,7 +1207,7 @@ h6 {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #000000;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1217,14 +1218,14 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #ecf5ff;
+  color: #000000;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
-  color: #fff;
+  background: #fff;
+  color: #000000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1236,14 +1237,14 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
-  color: #fff;
+  background: #fff;
+  color: #000000;
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1268,11 +1269,11 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #000000;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #000000;
 }
 
 #footer .footer-top .footer-contact {
@@ -1294,18 +1295,18 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: #8f4101;
   border: 0;
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: #fff;
+  color: #000000;
   transition: 0.3s;
   cursor: pointer;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background: #e06602;
 }
 
 #footer .copyright {
@@ -1320,7 +1321,7 @@ h6 {
 }
 
 #footer .credits a {
-  color: #bfddfe;
+  color: #000000;
 }
 
 #footer .credits a:hover {

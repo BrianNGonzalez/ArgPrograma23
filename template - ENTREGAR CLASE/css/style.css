@@ -287,7 +287,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -306,13 +306,13 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #004289;
+  color: #f7760d;
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #007bff;
+  color: #f7760d;
 }
 
 .main-nav .drop-down > a:after {
@@ -353,7 +353,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(223, 122, 7, 0.8);
   transition: 0.4s;
 }
 
@@ -374,7 +374,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
+  color: #f7760d;
   text-decoration: none;
 }
 
@@ -420,7 +420,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #f7760d;
 }
 
 .mobile-nav-overly {
@@ -430,7 +430,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   display: none;
 }
@@ -456,7 +456,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #f7760d;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -467,7 +467,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #f7760d;
   width: 50%;
 }
 
@@ -475,14 +475,14 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: #000000;
 }
 
 /* About Us Section
 --------------------------------*/
 
 #about {
-  background: #fff;
+  background: #000000;
   padding: 60px 0;
 }
 
@@ -491,7 +491,7 @@ h6 {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #000000;
 }
 
 #about .about-container .title {
@@ -509,14 +509,14 @@ h6 {
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  background: #000000;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: #eb7f27;
   width: 64px;
   height: 64px;
   display: -webkit-box;
@@ -538,21 +538,21 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #f7760d;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #fff;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #eb7f27;
 }
 
 #about .about-container .icon-box:hover .icon i {
-  color: #fff;
+  color: #000000;
 }
 
 #about .about-container .icon-box .title {
@@ -629,7 +629,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #f7760d;
 }
 
 #services .description {
@@ -736,17 +736,17 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #000000;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ecf5ff;
+  background: #f7760d;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #eb7f27;
   color: #fff;
 }
 
@@ -813,7 +813,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
+  color: #eb7f27;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -832,7 +832,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #eb7f27;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -855,7 +855,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
+  background: #eb7f27;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
